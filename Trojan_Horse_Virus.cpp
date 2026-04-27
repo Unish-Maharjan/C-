@@ -45,12 +45,6 @@ int main() {
         cout << "\n";
 
     } while (again == 'y' || again == 'Y');
-
-    cout << "----------------------------------\n";
-    cout << "Lab No.: 19\n";
-    cout << "Name: Mandip Shrestha\n";
-    cout << "Roll No.: 20800625 (Section: 'A')\n";
-    cout << "----------------------------------\n";
-
+    
     return 0;
 }

@@ -6,8 +6,8 @@
 #include <sstream>
 using namespace std;
 
-const string STORED_USER = "mandip";
-const string STORED_PASS = "pass123";
+const string STORED_USER = "Unish";
+const string STORED_PASS = "Unish123";
 
 string generateToken(const string &username) {
     srand(time(0));
@@ -52,12 +52,6 @@ int main() {
     } else {
         cout << "\n[TOKEN INVALID] Access DENIED.\n";
     }
-
-    cout << "\n----------------------------------\n";
-    cout << "Lab No.: 24\n";
-    cout << "Name: Mandip Shrestha\n";
-    cout << "Roll No.: 20800625 (Section: 'A')\n";
-    cout << "----------------------------------\n";
-
+    
     return 0;
 }
